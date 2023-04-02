@@ -1,0 +1,32 @@
+void main() {
+  
+  User userOne = User();
+  print(userOne.username);
+  print(userOne.age);
+  
+  userOne.login();
+  
+  SuperUser superUser = SuperUser();
+  
+  superUser.publish();
+  superUser.login();
+  
+}
+
+class User {
+  String username = 'utsav';
+  int age = 20;
+  
+  void login() {
+    print('user logged in');
+  }
+}
+
+class SuperUser extends User {
+  
+//   SuperUser(String username, int age) : super( username , age);
+  
+  void publish() {
+    print('published update');
+  }
+}

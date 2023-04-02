@@ -1,0 +1,18 @@
+void main() {
+  
+//   example of list
+  
+//   List names = ['utsav' , 'ram', 'sujal'];
+//   names.add('jeet');
+//   names.remove('utsav');
+//   names.add(30);
+//   print(names);
+  
+//   example of string list we can not add int value inside it
+//   List<String> names = ['utsav' , 'ram', 'sujal'];
+//   names.add('jeet');
+//   names.remove('utsav');
+//   names.add(30); // it will give error comment it 
+//   print(names);
+  
+}

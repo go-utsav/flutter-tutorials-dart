@@ -1,0 +1,23 @@
+void main() {
+  print('something');
+  int age = getAge();
+  print(age);
+  
+  String city = getCity();
+  print(city);
+  
+  String name = getName();
+  print(name);0
+}
+
+int getAge() {
+  return 30;
+}
+
+String getCity() {
+  return 'Gondal';
+}
+
+// arrow function in oneline
+
+String getName() => 'utsav';
